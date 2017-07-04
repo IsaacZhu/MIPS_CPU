@@ -1,0 +1,40 @@
+NET	"initclk"	      LOC="V10";
+NET   "rst"   		LOC="B8";
+
+NET	"sread"		LOC="D9";
+NET	"traverse_read" LOC="C4";
+
+NET	"saddr<7>"	   LOC="T5";
+NET	"saddr<6>"	   LOC="V8";
+NET	"saddr<5>"	   LOC="U8";
+NET	"saddr<4>"	   LOC="N8";
+NET	"saddr<3>"	   LOC="M8";
+NET	"saddr<2>"	   LOC="V9";
+NET	"saddr<1>"	   LOC="T9";
+NET	"saddr<0>"	   LOC="T10";
+
+#tc
+NET	"taddr<0>"	   LOC="U16";
+NET	"taddr<1>"	   LOC="V16";
+NET	"taddr<2>"	   LOC="U15";
+NET	"taddr<3>"	   LOC="V15";
+NET	"taddr<4>"	   LOC="M11";
+NET	"taddr<5>"	   LOC="N11";
+NET	"taddr<6>"	   LOC="R11";
+NET	"taddr<7>"	   LOC="T11";
+
+NET	"sel<0>"	   LOC="N16";
+NET	"sel<1>"	   LOC="N15";
+NET	"sel<2>"	   LOC="P18";
+NET	"sel<3>"	   LOC="P17";
+
+NET	"light<7>"	LOC="T17";
+NET	"light<6>"	LOC="T18";
+NET	"light<5>"	LOC="U17";
+NET	"light<4>"	LOC="U18";
+NET	"light<3>"	LOC="M14";
+NET	"light<2>"	LOC="N14";
+NET	"light<1>"	LOC="L14";
+NET	"light<0>"	LOC="M13";
+
+NET "rst" CLOCK_DEDICATED_ROUTE = FALSE;
